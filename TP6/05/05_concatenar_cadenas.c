@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int concat(char cadena_1[], char cadena_2[])
+void concat(char cadena_1[], char cadena_2[])
 {
 
     printf("Su cadena 1 es: %s \n", cadena_1);
