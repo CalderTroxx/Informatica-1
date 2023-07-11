@@ -14,8 +14,6 @@ int main()
 
         x = division * i;
 
-        // x = x / 57.2957795;
-
         y = sin(x) + 0.7 * cos(2 * x) + 0.5 * sin(3 * x);
 
         printf("%d; %f; %f\n", i + 1, x, y);

@@ -28,7 +28,7 @@ int main()
     for (int i = 0; i < 5; i++)
     {
         fun = sin(x);           // f(x) = y = sen(x)
-        fun_ = sin(x + h);      // f(x + h) = sen(x + h);
+        fun_ = sin((x + h));    // f(x + h) = sen(x + h);
         der = (fun_ - fun) / h; // f`(x) = (f(x + h) - f(x)) / h
 
         printf(" %12f; %.5f; %12f \n", fun, h, der);

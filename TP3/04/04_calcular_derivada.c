@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+#define PI 3.141592
+
 int main()
 {
     const float pre = 0.1;
@@ -14,8 +16,8 @@ int main()
 
     for (int i = 0; i < 5; i++)
     {
-        fun = pow(sin(x), 2);      // f(x) = y = sen^2(x)
-        fun_ = pow(sin(x + h), 2); // f(x + h) = sen^2(x + h);
+        fun = pow(sin(x), 2);        // f(x) = y = sen^2(x)
+        fun_ = pow(sin((x + h)), 2); // f(x + h) = sen^2(x + h);
 
         der = (fun_ - fun) / h; // f`(x) = (f(x + h) - f(x)) / h
 
