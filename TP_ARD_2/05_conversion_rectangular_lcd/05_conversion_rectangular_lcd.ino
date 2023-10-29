@@ -1,6 +1,5 @@
 #include <LiquidCrystal.h>
 
-
 LiquidCrystal lcd(13, 12, 11, 10, 9, 8);
 
 String variables[2] = { "amplitud_polar", "fase_polar" };
