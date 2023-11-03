@@ -71,10 +71,10 @@ void menu() {
   if (timer >= 3) {
     if (state == 0) {
       lcd.setCursor(0, 0);
-      lcd.print("   I.P.E.T 50");
+      lcd.print("  UTN INF. 2023");
     } else if(state == 1){
       lcd.setCursor(0, 0);
-      lcd.print("   El Humilde");
+      lcd.print("    CALDERON");
     }
     lcd.setCursor(0, 1);
     lcd.print("       ");
